@@ -1,18 +1,18 @@
 {
-  "name": "nette/web-project",
-  "description": "Nette: Standard Web Project",
-  "keywords": [
-    "nette"
-  ],
+  "name": "jendo/nette_doctrine",
+  "description": "Play with doctrine insside nette",
   "type": "project",
   "license": [
-    "MIT",
-    "BSD-3-Clause",
-    "GPL-2.0",
-    "GPL-3.0"
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "jendo",
+      "email": "jenis.michal@gmail.com"
+    }
   ],
   "require": {
-    "php": ">= 5.6",
+    "php": ">=7.0.0",
     "nette/application": "^2.4",
     "nette/bootstrap": "^2.4.2",
     "nette/caching": "^2.5",
@@ -26,15 +26,11 @@
     "nette/security": "^2.4",
     "nette/utils": "^2.4",
     "latte/latte": "^2.4",
-    "tracy/tracy": "^2.4"
+    "tracy/tracy": "^2.4",
+    "kdyby/doctrine": "^3.3",
+    "kdyby/events": "^3.1"
   },
   "require-dev": {
     "nette/tester": "^2.0"
-  },
-  "minimum-stability": "stable",
-  "config": {
-    "platform": {
-      "php": "5.6"
-    }
   }
 }
