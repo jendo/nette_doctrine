@@ -1,0 +1,6 @@
+app/config/config.local.neon
+/vendor/*
+/temp/*
+/logs/*
+.idea
+!.gitkeep
